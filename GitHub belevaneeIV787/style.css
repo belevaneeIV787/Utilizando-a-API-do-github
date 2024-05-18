@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+}
+.containerPrincipal{
+    max-width: 1280px;
+    margin: 0 auto;
+
+}
+header{
+    margin-top: 22px;
+    padding: 40px 4% 4%;
+}
+header > .containerPrincipal{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header nav ul li:hover{
+    transform: scale(1.08);
+}
+header nav ul{
+    display:inline-block ;
+    list-style-type: none;
+}
+header nav ul li{
+    font-weight: 400;
+    cursor: pointer;
+    font-size: 25px;
+    display: inline-block;
+    padding: 0 20px 20px;
+}
+.homeTexto{
+    cursor: context-menu;
+}
+
+.nome{
+    font-weight: bolder;
+    font-size: 40px;
+}
+.perfil-img{
+    border-radius: 550px;
+    width: 360px;
+}
+section.sect{
+    padding: 40px 4%;
+}
+.containerMain{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.section.containerMain{
+    padding: 40px 4%;
+}
+.divFlex{
+    display: flex;
+}
+section.containerMain.divFlex{
+    align-items: center;
+    justify-content: center ;
+    gap: 90px;
+}
+.containerMain .descricao-perfil p{
+    margin: 20px 0;
+}
+.containerMain .descricao-perfil{
+    margin-left: 40px;
+}
+.containerMain .descricao-perfil button{
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-color: #A5B4FC;
+    border-style: double;
+    border: 30%;
+}
+.contatoBtn{
+    margin-left: 20px;
+    width: 100px;
+}
+.downloadBtn{
+    width: 200px;
+}
+.containerMain .descricao-perfil button:hover{
+    background-color: #A5B4FC;
+    color: white;
+    cursor: pointer;
+}
+.maisSegBnt{
+    height: 40px;
+    border-radius: 50px;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    border-color: #A5B4FC;
+    border-style: double;
+    border: 30%;
+    width: 200px;
+}
+.maisSegBnt:hover{
+    background-color: #A5B4FC;
+    color: white;
+    cursor: pointer;
+}
+.Bnt{
+    text-align: center;
+}
+.sect2{
+    font-family: 'Poppins', sans-serif;
+    padding: 40px 4%;
+}
+
+.seguidor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px; 
+}
+
+.seguidor img {
+    width: 300px}
+
+.seguidores-container {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap; 
+}
+.pS{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bolder;
+    font-size: 25px;
+    cursor: context-menu;
+}
+
+footer{
+    padding: 40px 4%;
+   
+    font-weight: bolder;
+}
+.redes-sociais {
+    display: flex;
+    justify-content: right;
+}
+
+.social-icon {
+    width: 30px;
+   margin-left: 10px;
+   margin-right: 10px;
+ cursor: pointer;
+    
+}
+.footerDiv{
+    justify-content: space-between;
+    flex-direction: row;
+}
+.tracinho{
+    background-color:#A5B4FC ;
+    height: 4.2px;
+    width: 40px;
+    border-radius: 80px;
+    margin-right: 9px;
+}
+.divisinha{
+    display: flex;
+    align-items: center;
+}
+.social-icon:hover{
+    transform: scale(1.08);
+}
+.imagemSeguidor:hover{
+    transform: scale(1.02);
+}
+footer p{
+    cursor: context-menu;
+}
+.imagemSeguidor{
+    border-radius: 4px;
+    margin-left: 55px;
+    margin-right: 55px;
+    cursor: pointer;
+}
